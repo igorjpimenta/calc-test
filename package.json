@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "bin": {
+    "calc": "./bin/calc.js"
+  },
   "scripts": {
-    "smoke": "node smoke.js"
+    "smoke": "node smoke.js",
+    "test": "node --test"
   }
 }
